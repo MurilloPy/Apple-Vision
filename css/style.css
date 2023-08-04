@@ -23,7 +23,7 @@
   .menu-btn {
     position: fixed;
     top: 20px;
-    left: 1400px;
+    left: 1200px;
     display: flex;
     flex-direction: column;
     cursor: pointer;
@@ -78,6 +78,8 @@
   
   #link-titulo-header {
     /* Removi o position: relative, pois não parece ser necessário */
+    position: relative;
+    right: 430px;
     text-decoration: none;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -95,7 +97,7 @@
   
   #titulo-apple-vision {
     position: relative;
-    left: 100px;
+    left: 924px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     color: rgb(78, 78, 221);
@@ -104,15 +106,17 @@
   
   #paragrafo-apple-vision {
     position: relative;
-    right: 24px;
+    left: 924px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 26px;
+    font-size: 22px;
     text-align: center;
   }
   
   #image-apple-vision {
     /* Alterei o posicionamento para centralizar horizontalmente */
-    width: 1000PX;
+    position: relative;
+    width: 1000px;
+    right: 761px;
     margin: 0 auto;
     max-width: 100%; /* Adicionado para garantir que a imagem não ultrapasse a largura máxima */
   }
