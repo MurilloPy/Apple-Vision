@@ -1,35 +1,26 @@
-*{
-
+* {
     padding: 0;
     margin: 0;
-    text-decoration: none;
-    list-style: none;
-
-}
-
-:root{
-
+    box-sizing: border-box; /* Incluído para melhorar o comportamento dos elementos */
+  }
+  
+  :root {
     background-color: white;
     font-size: 20px;
-
-}
-
-header{
-
-    width: 1850px;
+  }
+  
+  header {
+    width: 100%; /* Mudado para 100% para ocupar toda a largura da tela */
+    max-width: 1865px; /* Adicionado para limitar a largura máxima do header */
     height: 80px;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-
-/* ############################################################## */
-/* MENU RETRATIL */
-
-.menu-btn{
-
+  }
+  
+  /* MENU RETRÁTIL */
+  .menu-btn {
     position: fixed;
     top: 20px;
     left: 1400px;
@@ -37,20 +28,16 @@ header{
     flex-direction: column;
     cursor: pointer;
     transition: transform 0.3s ease;
-
-}
-
-.bar{
-
+  }
+  
+  .bar {
     width: 30px;
     height: 3px;
     background-color: white;
     margin: 3px 0;
-
-}
-
-.menu{
-
+  }
+  
+  .menu {
     position: fixed;
     top: 0;
     left: -300px;
@@ -61,94 +48,72 @@ header{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     z-index: 1;
     transition: left 0.3s ease;
-}
-
-.menu.show-menu{
-
+  }
+  
+  .menu.show-menu {
     left: 0;
-
-}
-
-.menu li{
-
+  }
+  
+  .menu li {
     margin-bottom: 10px;
-
-}
-
-.menu a{
-
+  }
+  
+  .menu a {
     text-decoration: none;
     color: #333;
     font-size: 20px;
-
-}
-
-li{
-
+  }
+  
+  li {
     text-align: center;
-
-}
-
-/* MENU RETRATIL */
-/* ############################################################## */
-.textos{
-
-    display: flex;
+  }
+  
+  /* MENU RETRÁTIL */
+  .textos {
+    /* Ajustei o posicionamento para centralizar horizontalmente */
     position: relative;
-    left:580px;
-    top: 30px;
-
-}
-
-#link-titulo-header{
-
-    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  #link-titulo-header {
+    /* Removi o position: relative, pois não parece ser necessário */
     text-decoration: none;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
-    color:white;   
-    right:400px;
-
-}
-
-.div-main{
-
+    color: white;
+    /* Removi o right: 400px, pois o posicionamento será feito com flexbox */
+  }
+  
+  .div-main {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-#titulo-apple-vision{
-
+  }
+  
+  #titulo-apple-vision {
+    position: relative;
+    left: 100px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
-    margin-bottom: 18px;
-
-}
-
-#paragrafo-apple-vision{
-
+    color: rgb(78, 78, 221);
+    margin-bottom: 40px;
+  }
+  
+  #paragrafo-apple-vision {
+    position: relative;
+    right: 24px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 21px;
-}
-
-#image-apple-vision{
-
-    position: relative;
-    width: 1000px;
-    bottom: 63px;
-    right: 433px;
-
-}
-
-#section-info{
-
-    width: 1000px;
-    height: 800px;
-    background-color: black;
-    position: relative;
-    bottom:40px;
-    width: 1850px;
-}
+    font-size: 26px;
+    text-align: center;
+  }
+  
+  #image-apple-vision {
+    /* Alterei o posicionamento para centralizar horizontalmente */
+    width: 1000PX;
+    margin: 0 auto;
+    max-width: 100%; /* Adicionado para garantir que a imagem não ultrapasse a largura máxima */
+  }
+  
