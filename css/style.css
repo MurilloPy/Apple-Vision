@@ -1,7 +1,9 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box; /* Incluído para melhorar o comportamento dos elementos */
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
   }
   
   :root {
@@ -23,7 +25,7 @@
   .menu-btn {
     position: fixed;
     top: 20px;
-    left: 1200px;
+    left: 1480px;
     display: flex;
     flex-direction: column;
     cursor: pointer;
@@ -59,7 +61,6 @@
   }
   
   .menu a {
-    text-decoration: none;
     color: #333;
     font-size: 20px;
   }
@@ -72,7 +73,7 @@
   .textos {
     /* Ajustei o posicionamento para centralizar horizontalmente */
     position: relative;
-    left: 50%;
+    left: 54%;
     transform: translateX(-50%);
   }
   
@@ -83,7 +84,7 @@
     text-decoration: none;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 32px;
     color: white;
     /* Removi o right: 400px, pois o posicionamento será feito com flexbox */
   }
@@ -95,29 +96,39 @@
     text-align: center;
   }
   
+  .divisor-superior-titulo-apple-vision{
+
+    position: relative;
+    background-color: rgb(78, 78, 221);
+    width: 100px;
+    height: 5px;
+    bottom: 40px;
+    left: 1260px;
+
+  }
+
   #titulo-apple-vision {
     position: relative;
-    left: 924px;
+    left: 970px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     color: rgb(78, 78, 221);
-    margin-bottom: 40px;
+    margin-bottom: 18px;
   }
   
   #paragrafo-apple-vision {
     position: relative;
-    left: 924px;
+    left: 990px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 24px;
     text-align: center;
   }
   
   #image-apple-vision {
-    /* Alterei o posicionamento para centralizar horizontalmente */
     position: relative;
     width: 1000px;
-    right: 761px;
+    right: 791px;
     margin: 0 auto;
-    max-width: 100%; /* Adicionado para garantir que a imagem não ultrapasse a largura máxima */
+    max-width: 100%; 
   }
   
