@@ -1,28 +1,35 @@
 * {
+
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+
   }
   
   :root {
+
     background-color: white;
     font-size: 20px;
+
   }
   
   header {
-    width: 100%; /* Mudado para 100% para ocupar toda a largura da tela */
-    max-width: 1865px; /* Adicionado para limitar a largura máxima do header */
+
+    width: 100%;
+    max-width: 1865px;
     height: 80px;
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+
   }
   
-  /* MENU RETRÁTIL */
-  .menu-btn {
+  /* MENU RETRÁTIL LATERAL*/
+  .hamburguer {
+
     position: fixed;
     top: 20px;
     left: 1480px;
@@ -30,16 +37,20 @@
     flex-direction: column;
     cursor: pointer;
     transition: transform 0.3s ease;
+
   }
   
-  .bar {
+  .camada {
+
     width: 30px;
     height: 3px;
     background-color: white;
     margin: 3px 0;
+
   }
   
   .menu {
+
     position: fixed;
     top: 0;
     left: -300px;
@@ -50,50 +61,63 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     z-index: 1;
     transition: left 0.3s ease;
+
   }
   
   .menu.show-menu {
+
     left: 0;
+
   }
   
   .menu li {
+
     margin-bottom: 10px;
+
   }
   
   .menu a {
+
     color: #333;
     font-size: 20px;
+
   }
   
   li {
+
     text-align: center;
+
   }
   
   /* MENU RETRÁTIL */
+
   .textos {
-    /* Ajustei o posicionamento para centralizar horizontalmente */
+
     position: relative;
     left: 54%;
     transform: translateX(-50%);
+
   }
   
   #link-titulo-header {
-    /* Removi o position: relative, pois não parece ser necessário */
+
     position: relative;
-    right: 430px;
     text-decoration: none;
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 32px;
     color: white;
-    /* Removi o right: 400px, pois o posicionamento será feito com flexbox */
+    
+
   }
   
   .div-main {
+
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+
   }
   
   .divisor-superior-titulo-apple-vision{
@@ -108,27 +132,32 @@
   }
 
   #titulo-apple-vision {
+
     position: relative;
     left: 970px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 40px;
     color: rgb(78, 78, 221);
     margin-bottom: 18px;
+
   }
   
   #paragrafo-apple-vision {
+
     position: relative;
     left: 990px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
     text-align: center;
+
   }
   
   #image-apple-vision {
+
     position: relative;
     width: 1000px;
     right: 791px;
     margin: 0 auto;
     max-width: 100%; 
+
   }
-  
