@@ -17,6 +17,8 @@
   
   header {
 
+    position: fixed;
+    top: 0;
     width: 100%;
     max-width: 1865px;
     height: 80px;
@@ -24,6 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 
   }
   
@@ -56,7 +59,7 @@
     left: -300px;
     width: 200px;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.711);
+    background-color: rgb(78, 78, 221);
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -78,7 +81,8 @@
   
   .menu a {
 
-    color: #333;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 
   }
@@ -127,7 +131,7 @@
     width: 100px;
     height: 5px;
     bottom: 40px;
-    left: 1260px;
+    left: 1181px;
 
   }
 
@@ -155,9 +159,79 @@
   #image-apple-vision {
 
     position: relative;
-    width: 1000px;
+    width: 1050px;
     right: 791px;
     margin: 0 auto;
     max-width: 100%; 
 
   }
+
+ .border-readmore{
+
+  position: relative;
+  left: 30px;
+
+ }
+
+#readmore{
+
+  position: relative;
+  left:950px;
+  top: 40px;
+  background-color: rgb(78, 78, 221);
+  color:rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  border-radius: 5px;
+  letter-spacing: 3px;
+  font-size: 1.25rem;
+  border-style: solid;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 35px auto 0 0;
+  padding: 10px 30px 10px 30px;
+
+}
+
+#readmore:hover{
+
+  border: solid black 2px;
+  background-color: white;
+  color: rgb(78, 78, 221);
+
+}
+
+#adquirir-apple-vision{
+
+  position: relative;
+  background-color: rgb(78, 78, 221);
+  color:white;
+  width: 1850px;
+  height: 500px;
+  bottom:5px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#titulo-adquirir-apple-vision{
+
+  position: relative;
+  top: -170px;
+  left: 550px;
+  font-size: 45px;
+  font-weight: 100;
+  letter-spacing: 2px;
+
+}
+
+#paragrafo-section-apple-vision{
+
+  position: relative;
+  right: 270px;
+  bottom:100px;
+  font-size: 25px;
+
+}
