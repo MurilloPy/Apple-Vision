@@ -10,7 +10,7 @@
   
   :root {
 
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     font-size: 20px;
 
   }
@@ -96,7 +96,6 @@
   /* MENU RETRÁTIL */
 
   .textos {
-
     position: relative;
     left: 54%;
     transform: translateX(-50%);
@@ -131,7 +130,7 @@
     width: 100px;
     height: 5px;
     bottom: 40px;
-    left: 1181px;
+    left: 1290px;
 
   }
 
@@ -201,7 +200,7 @@
 
 }
 
-#adquirir-apple-vision{
+#sobre-apple-vision{
 
   position: relative;
   background-color: rgb(78, 78, 221);
@@ -211,12 +210,13 @@
   bottom:5px;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
+  text-align: center;
 
 }
 
-#titulo-adquirir-apple-vision{
+#titulo-oque-é-o-apple-vision{
 
   position: relative;
   top: -170px;
@@ -227,11 +227,45 @@
 
 }
 
-#paragrafo-section-apple-vision{
+#paragrafo-descrição-apple-vision{
 
   position: relative;
   right: 270px;
-  bottom:100px;
-  font-size: 25px;
+  bottom:120px;
+  font-size: 23px;
+  color:white;
+
+}
+
+/*Controla O Titulo e a Descrição*/
+.titulos-paragrafos-descrição-apple-vision{
+
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 600px;
+  font-size: 35px;
+  color:white;
+
+
+}
+/*Controla O Titulo e a Descrição*/
+
+#titulo-sobre-apple-vision{
+
+  position: absolute;
+  top: -250px;
+  left:58px;
+
+}
+
+.divisor-titulo-sobre-apple-vision{
+
+  position: absolute;
+  width: 619px;
+  height: 1px;
+  left:40px;
+  top: -160px;
+  background-color: rgb(255, 255, 255);
 
 }
