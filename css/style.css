@@ -29,6 +29,15 @@
     z-index: 2;
 
   }
+
+  #logo-apple{
+
+    position: absolute;
+    width: 48px;
+    left: 820px;
+    bottom:18px;
+
+  }
   
   /* MENU RETRÁTIL LATERAL*/
   .hamburguer {
@@ -219,7 +228,6 @@
 #titulo-oque-é-o-apple-vision{
 
   position: relative;
-  top: -170px;
   left: 550px;
   font-size: 45px;
   font-weight: 100;
@@ -242,7 +250,7 @@
 
   display: flex;
   position: absolute;
-  bottom: 10px;
+  bottom: -50px;
   left: 600px;
   font-size: 35px;
   color:white;
@@ -269,3 +277,21 @@
   background-color: rgb(255, 255, 255);
 
 }
+
+footer{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  width: 1850px;
+  height: 100px;
+  bottom:5px;
+  background-color: black;
+  color:white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+
+}
+
