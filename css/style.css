@@ -1,3 +1,4 @@
+  /*HTML & CSS */
 * {
 
     padding: 0;
@@ -20,7 +21,6 @@
     position: fixed;
     top: 0;
     width: 100%;
-    max-width: 1865px;
     height: 80px;
     background-color: black;
     display: flex;
@@ -75,7 +75,12 @@
     transition: left 0.3s ease;
 
   }
-  
+  /*HTML & CSS */
+
+
+
+
+  /*CSS & JS*/
   .menu.show-menu {
 
     left: 0;
