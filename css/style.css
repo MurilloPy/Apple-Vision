@@ -43,7 +43,7 @@
   .hamburguer {
 
     position: fixed;
-    top: 20px;
+    top: 24px;
     left: 1480px;
     display: flex;
     flex-direction: column;
